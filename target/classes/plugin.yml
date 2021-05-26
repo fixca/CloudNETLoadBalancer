@@ -1,0 +1,6 @@
+name: CloudNetLoadBalancer
+version: 1.0
+author: fixca
+main: main.Main
+depend:
+  - CloudNet-Bridge
