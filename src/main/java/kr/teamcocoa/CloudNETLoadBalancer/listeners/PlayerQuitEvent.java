@@ -1,4 +1,4 @@
-package listeners;
+package kr.teamcocoa.CloudNETLoadBalancer.listeners;
 
 import de.dytanic.cloudnet.ext.bridge.BridgeHelper;
 import de.dytanic.cloudnet.ext.bridge.bukkit.BukkitCloudNetHelper;

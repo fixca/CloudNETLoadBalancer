@@ -1,9 +1,9 @@
-package main;
+package kr.teamcocoa.CloudNETLoadBalancer.main;
 
 import de.dytanic.cloudnet.ext.bridge.BridgeHelper;
 import de.dytanic.cloudnet.ext.bridge.bukkit.BukkitCloudNetHelper;
-import listeners.PlayerJoinEvent;
-import listeners.PlayerQuitEvent;
+import kr.teamcocoa.CloudNETLoadBalancer.listeners.PlayerJoinEvent;
+import kr.teamcocoa.CloudNETLoadBalancer.listeners.PlayerQuitEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
