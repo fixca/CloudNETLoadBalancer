@@ -1,6 +1,6 @@
 name: CloudNetLoadBalancer
 version: 1.0
 author: fixca
-main: main.Main
+main: kr.teamcocoa.CloudNETLoadBalancer.main.Main
 depend:
   - CloudNet-Bridge
