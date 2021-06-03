@@ -1,6 +1,6 @@
 # CloudNETLoadBalancer
 
-A External plugin for CloudNET V3
+A External plugin for CloudNET V3<br>
 CloudNET V3에 대응하는 외부 플러그인입니다.
 
 ---
