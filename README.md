@@ -28,3 +28,23 @@ CloudNET의 API를 이용하여 플러그인이 적용되어있는 서버의 최
 
 ## 서버 복제가 안돼잖아요!
 앗, 서버 복제는 서버 task의 smartconfig를 설정해주셔야 해요!
+smartconfig를 다음과 같이 설정해주세요!
+```json
+"properties": {
+    "smartConfig": {
+      "enabled": true,
+      "priority": 10,
+      "directTemplatesAndInclusionsSetup": false,
+      "preparedServices": 1,
+      "dynamicMemoryAllocation": false,
+      "dynamicMemoryAllocationRange": 256,
+      "percentOfPlayersToCheckShouldAutoStopTheServiceInFuture": 0,
+      "autoStopTimeByUnusedServiceInSeconds": 180,
+      "percentOfPlayersForANewServiceByInstance": 100,
+      "forAnewInstanceDelayTimeInSeconds": -1,
+      "minNonFullServices": 1,
+      "templateInstaller": "INSTALL_ALL",
+      "maxServiceCount": -1
+    }
+  }
+```
